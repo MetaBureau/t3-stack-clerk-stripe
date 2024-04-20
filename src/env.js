@@ -24,7 +24,6 @@ export const env = createEnv({
     STRIPE_SUBSCRIPTION_PRICE_ID: z.string(),
     STRIPE_LIFETIME_PRICE_ID: z.string(),
     URL: z.string(),
-    REACT_APP_MAPBOX_ACCESS_TOKEN: z.string(),
   },
 
   /**
@@ -54,7 +53,6 @@ export const env = createEnv({
     STRIPE_SUBSCRIPTION_PRICE_ID: process.env.STRIPE_SUBSCRIPTION_PRICE_ID,
     STRIPE_LIFETIME_PRICE_ID: process.env.STRIPE_LIFETIME_PRICE_ID,
     URL: process.env.URL,
-    REACT_APP_MAPBOX_ACCESS_TOKEN: process.env.REACT_APP_MAPBOX_ACCESS_TOKEN
     // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
   },
   /**
